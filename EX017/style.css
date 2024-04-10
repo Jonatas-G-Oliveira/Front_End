@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+body{
+    /*Voce pode colocar,sans-serif,serif,monospace*/
+    font-family:sans-serif;
+    color:black;
+}
+/*16px equivalem a 1 em*/
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5em;
+}
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
