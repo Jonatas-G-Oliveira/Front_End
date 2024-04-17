@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        form{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Diferença entre name e id
+        name html e php 
+    id da pra usar no javaScript
+    -->
+    <!--
+        Tem que relacionar os LAbels aos Inputs TEM QUE TER O VINCULO !!! <---
+    -->
+    <h1>Aprendendo a utilizar forms</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+    <!--
+        Metodo padrão é o metodo get -> Dados não sensíveis até 3000Bytes
+        Métod post -> Omite os dados da URL -> Dados sensíveis,pode enviar fotos
+    -->
+    
+</body>
+</html>
