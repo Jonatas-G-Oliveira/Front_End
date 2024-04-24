@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(211, 197, 179);
+    font:normal 15pt Arial;
+}
+
+header > h1{
+    margin: 20px;
+    text-align: center;
+    color: white;
+    
+}
+div#caixa{
+    padding: 10px;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.300);
+    
+    
+}
+div#caixa > p{
+    margin: 20px;
+    text-align: center;
+}
+
+div#imagem{
+    width: 380px;
+    height: 380px;
+    margin: auto;
+    background-color: aquamarine;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px black;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-style:italic;
+}

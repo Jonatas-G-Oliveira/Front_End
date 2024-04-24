@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex002</title>
+    <link rel ="stylesheet" href = "style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <form>
+            <p>
+                <label for="inascimento">Ano de nascimento</label>
+                <input type="number" name="nascimento" id="inascimento" placeholder="DDDD">
+            </p>
+            <p>Sexo:
+                <label for="imasc">Masculino</label>
+                <input type="radio" name="radsex" id ="imasc" checked>
+                
+                <label for="ifem">feminino</label>
+                <input type="radio" name="radsex" id ="ifem">
+            </p>
+            <p>
+                <input type="submit" value="Enviar" onclick="verificaIdade()">
+            </p>
+        </form>
+        <div id="res">
+            <p>Mensagem aqui</p>
+        </div>
+    </section> 
+    <footer>
+        <p>@CursoEmVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
